@@ -32,10 +32,8 @@ function handleMove(index) {
   if (board[index] || checkWinner(board) || currentPlayer !== humanPlayer) return;
   board[index] = humanPlayer;
   drawBoard();
-
   const winner = checkWinner(board);
   if (winner) return showResult(winner);
-
   currentPlayer = aiPlayer;
   setTimeout(aiMove, 400);
 }
@@ -65,10 +63,8 @@ function minimax(b, depth, isMax) {
   if (result === aiPlayer) return 1;
   if (result === humanPlayer) return -1;
   if (result === "D") return 0;
-
   const player = isMax ? aiPlayer : humanPlayer;
   let best = isMax ? -Infinity : Infinity;
-
   b.forEach((cell, idx) => {
     if (!cell) {
       const tempBoard = [...b];
