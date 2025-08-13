@@ -1,20 +1,14 @@
-// Handle sending messages
 function sendMessage() {
   const input = document.getElementById("user-input");
   const message = input.value.trim();
   if (!message) return;
-
   appendMessage("user", message);
   input.value = "";
-
-  // Simulate typing delay
   setTimeout(() => {
     const reply = getBotReply(message);
     appendMessage("bot", reply);
   }, 800);
 }
-
-// Show chat message on screen
 function appendMessage(sender, text) {
   const chatBox = document.getElementById("chat-box");
   const messageEl = document.createElement("div");
@@ -23,11 +17,8 @@ function appendMessage(sender, text) {
   chatBox.appendChild(messageEl);
   chatBox.scrollTop = chatBox.scrollHeight;
 }
-
-// Bot responses
 function getBotReply(msg) {
   msg = msg.toLowerCase();
-
   if (["hi", "hello", "hey"].includes(msg)) return "Hey there! 😊 How can I help you today?";
   if (msg.includes("how are you")) return "I'm doing great, thanks for asking! 💪";
   if (msg.includes("your name")) return "I'm Nikunj's AI Chatbot, built during the CodSoft internship!";
@@ -41,11 +32,8 @@ function getBotReply(msg) {
   if (msg === "bye") return "Goodbye! It was great chatting with you. 👋";
   if (msg.includes("see you later") || msg.includes("talk to you soon")) return "See you later! Come back soon. 🚀";
   if (msg.includes("thank")) return "You're welcome! 😊 Anytime.";
-
   return "Hmm... I'm not sure I understand that. Try asking me something else!";
 }
-
-// Send on Enter key
 document.getElementById("user-input").addEventListener("keydown", function (e) {
   if (e.key === "Enter") sendMessage();
 });
