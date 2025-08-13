@@ -47,7 +47,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #00e1ff; /* X color */
+  color: #00e1ff; 
   cursor: pointer;
   transition: background 0.3s ease;
 }
@@ -55,7 +55,7 @@ h1 {
   background-color: #263344;
 }
 .cell.O {
-  color: #ffbf00; /* O color */
+  color: #ffbf00; 
 }
 #scoreboard {
   margin: 15px 0;
