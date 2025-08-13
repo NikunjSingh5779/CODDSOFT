@@ -10,11 +10,12 @@ This is an enhanced version of the classic Tic-Tac-Toe game featuring an **unbea
 
 ##  Technologies Used
  HTML5
- CSS3 
- JavaScript 
+ CSS3
+ JavaScript
  Minimax algorithm
 
 ##  How to Play
 1. Download or clone this repo
 2. Open `index.html` in your browser
 3. Play and try to beat the AI!
+
