@@ -6,23 +6,20 @@ It responds to user messages based on predefined logic using conditional stateme
 
 ---
 
-## 📌 Features
+##  Features
 
-- Interactive chatbot UI
-- Rule-based response system using `if-else`
-- Typing simulation (delayed response)
-- User and bot message styling
-- Works entirely in browser (no backend required)
-
----
-
-## 💻 Tech Stack
-
-- **HTML5** – Structure  
-- **CSS3** – Dark-themed styling (mobile-friendly)  
-- **JavaScript** – Logic for rule-based conversations
+ Interactive chatbot UI
+ Rule-based response system using `if-else`
+ Typing simulation (delayed response)
+ User and bot message styling
+ Works entirely in browser (no backend required)
 
 ---
 
-## 🧠 Sample Questions You Can Ask
+##  Tech Stack
 
+ **HTML5** – Structure  
+ **CSS3** – Dark-themed styling (mobile-friendly)  
+ **JavaScript** – Logic for rule-based conversations
+
+---
