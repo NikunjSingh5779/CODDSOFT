@@ -32,3 +32,5 @@ Tech: Python, Pandas, Scikit-learn, Flask / Google Colab
 Proud to be learning and building with CodSoft!
 📌 LinkedIn: (https://www.linkedin.com/in/nikunj-singh-b50599298/)
 📌 GitHub: (https://github.com/NikunjSingh5779)
+
+Proudly built during my CodSoft Internship 💛
