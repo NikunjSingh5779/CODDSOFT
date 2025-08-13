@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic-Tac-Toe AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Tic-Tac-Toe: AI vs Human</h1>
+    <div class="scoreboard">
+      <div id="scoreX">X: 0</div>
+      <div id="scoreO">O: 0</div>
+      <div id="draws">Draws: 0</div>
+    </div>
+    <div id="board" class="board"></div>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h2 id="resultText"></h2>
+      <button onclick="resetGame()">Play Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
