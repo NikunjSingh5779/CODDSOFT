@@ -1,4 +1,4 @@
-# 🤖 Rule-Based Chatbot – CodSoft Internship (Task 1)
+#  Rule-Based Chatbot – CodSoft Internship (Task 1)
 
 This is a simple **rule-based chatbot** built using HTML, CSS, and JavaScript as part of my **CodSoft Internship (July Batch B42)**.
 
@@ -23,3 +23,4 @@ It responds to user messages based on predefined logic using conditional stateme
  **JavaScript** – Logic for rule-based conversations
 
 ---
+
